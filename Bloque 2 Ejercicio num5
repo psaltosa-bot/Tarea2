@@ -1,4 +1,3 @@
-//Obtener iniciales de varios cargos profesiones de un arreglo
 let cargos = ["Director General Academico", "Jefe de Laboratorio", "Asistente Administrativo"];
 for (let i = 0; i < cargos.length; i++) {
     let cargoActual = cargos[i];
