@@ -1,4 +1,3 @@
-//Contar apariciones de una vocal en cada titulo de un arreglo 
 let titulosProductos = ["Programacion avanzada", "Desarrollo web", "Analisis de datos"];
 let vocalABuscar = prompt("Ingrese una vocal para buscar en los titulos de productos:").toLowerCase();
 let contadorVocales = 0;
@@ -11,3 +10,4 @@ for (let i = 0; i < titulosProductos.length; i++) {
     }
     }
     console.log("La vocal " + vocalABuscar + " aparece " + contadorVocales + " veces en los titulos de productos.");
+
