@@ -1,4 +1,3 @@
-//Promedio de calificaciones mayores a 70 en un arreglo 
 let calificaciones = [65, 80, 90, 50, 75];
 let suma = 0;
 let contador = 0;
