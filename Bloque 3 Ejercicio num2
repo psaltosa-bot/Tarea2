@@ -1,0 +1,9 @@
+let n = parseInt(prompt("ingresar la cantidad de numeros a evaluar:"));
+let contadornumerosnegativos = 0;
+for (let i = 1; i <= n; i++) {
+ let numero = parseInt(prompt(`Ingrese el número ${i + 1}:`))
+ if (numero < 0) {
+    contadornumerosnegativos++;
+ }
+} 
+console.log(`Cantidad de negativos: ${contadornumerosnegativos}`); 
