@@ -1,4 +1,3 @@
-//Promedio de edades:mayores vs menores de edad 
 let n = parseInt(prompt("Ingrese la cantidad de edades a evaluar:"));
 let sumaMayores = 0;
 let sumaMenores = 0;
