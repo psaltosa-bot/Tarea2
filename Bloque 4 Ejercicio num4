@@ -1,4 +1,3 @@
-//Mostrar tablas de multiplicar de varios numeros
 let numeros = [3, 5];
 for (let j = 0; j < numeros.length; j++) {
     let numero = numeros[j];
