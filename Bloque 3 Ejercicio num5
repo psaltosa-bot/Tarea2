@@ -1,5 +1,4 @@
-//Promedio de numeros pares e impares
-let n = parseInt(prompt("Ingrese la cantidad de numeros a evaluar:"));
+let n = parseInt(prompt("Ingrese una cantidad de numeros :"));
 let sumaPares = 0;
 let sumaImpares = 0;
 let contadorPares = 0;
@@ -16,5 +15,5 @@ for (let i = 1; i <= n; i++) {
 }
 let promedioPares = contadorPares > 0 ? (sumaPares / contadorPares) : 0;
 let promedioImpares = contadorImpares > 0 ? (sumaImpares / contadorImpares) : 0;
-console.log("El promedio de numeros pares es: " + promedioPares);
-console.log("El promedio de numeros impares es: " + promedioImpares); 
+console.log("promedio de los numeros pares: " + promedioPares);
+console.log("promedio de los numeros impares: " + promedioImpares); 
