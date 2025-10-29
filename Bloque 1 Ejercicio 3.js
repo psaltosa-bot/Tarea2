@@ -1,4 +1,9 @@
-//Invertir un nombre de producto
-let nombreProducto = prompt("Ingrese el nombre de un producto:");
-let nombreInvertido = nombreProducto.split("").reverse().join("");
-console.log("Nombre del producto invertido: " + nombreInvertido);
+const producto = "Laptop";
+let productoInvertido = "";
+
+// El bucle empieza en el último caracter y va retrocediendo hasta el primero
+for (let i = producto.length - 1; i >= 0; i--) {
+  // En cada paso, se añade el caracter actual al final del nuevo string
+  productoInvertido += producto[i];
+}
+console.log(productoInvertido);
